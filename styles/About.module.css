@@ -1,0 +1,26 @@
+.container {
+  width: 100%;
+  max-width: 900px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: .3rem;
+}
+
+.links > a {
+  text-decoration: underline;
+  text-decoration-color: var(--dark-10);
+}

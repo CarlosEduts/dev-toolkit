@@ -1,0 +1,10 @@
+.container {
+  font-family: var(--font-geist-sans);
+  width: 100%;
+  max-width: 900px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+}

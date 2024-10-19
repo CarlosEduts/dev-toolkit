@@ -73,6 +73,7 @@ export default function BorderGenerator() {
               </div>
 
               <br />
+              <hr />
 
               {/* Seletor de cor da borda */}
               <label>Cor: </label>
@@ -110,17 +111,16 @@ export default function BorderGenerator() {
                 onChange={(e) => setBorderWidth(e.target.value)}
                 min="1"
               />
-
+              <hr />
               <br />
+
               {/* Mostra o código CSS gerado */}
               <pre>border: {borderStyleCss};</pre>
 
               {/* Botões para copiar o CSS e resetar os valores */}
               <div className={style.actions}>
                 <CopyButton onClick={copyToClipboard}>Copiado!</CopyButton>
-                <button onClick={resetValues}>
-                  Reset
-                </button>
+                <button onClick={resetValues}>Reset</button>
               </div>
             </div>
           </div>

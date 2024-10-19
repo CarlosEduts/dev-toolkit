@@ -65,6 +65,7 @@ export default function BorderRadius() {
                 }}
               ></div>
 
+              <hr />
               {/* Controles para ajustar o border-radius */}
               <div>
                 <div>

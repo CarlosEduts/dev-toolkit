@@ -4,7 +4,7 @@ import { useState } from "react";
 import Head from "next/head";
 import CopyButton from "../components/CopyButton";
 
-export default function CountCharacters() {
+export default function SortText() {
   const [texto, setTexto] = useState("");
   const [textoOrdenado, setTextoOrdenado] = useState("");
 

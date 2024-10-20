@@ -54,6 +54,14 @@ export default function Home() {
           <ToolBox title="Ordenador de Texto" href="./tools/sort-text">
           Organize e copie textos em ordem alfabética com facilidade
           </ToolBox>
+
+          <ToolBox title="Gerador de Números Aleatórios" href="./tools/random-num">
+          Gere e copie números aleatórios personalizados de forma fácil para qualquer finalidade.
+          </ToolBox>
+
+          <ToolBox title="Cronômetro Simples" href="./tools/countdown">
+          Controle o tempo com funções de iniciar, pausar e zerar
+          </ToolBox>
         </div>
       </div>
     </>

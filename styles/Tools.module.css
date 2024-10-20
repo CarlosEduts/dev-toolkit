@@ -31,16 +31,6 @@
   background: var(--background);
 }
 
-.tool textarea,
-.tool input {
-  margin: .7rem 0;
-  border-radius: 4px;
-  padding: .4rem .3rem;
-  border: 1px solid var(--dark-80);
-  background-color: var(--dark-10);
-  resize: vertical;
-}
-
 .tool .actions {
   margin-top: 1rem;
   display: flex;

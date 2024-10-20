@@ -14,13 +14,19 @@ export default function LoremIpsumGenerator() {
   // Função para gerar Lorem Ipsum
   const gerarLoremIpsum = () => {
     let resultado = "";
+
     for (let i = 0; i < numParagrafos; i++) {
       let paragrafo = [];
+
       for (let j = 0; j < numPalavras; j++) {
-        paragrafo.push(LOREM_IPSUM[j % LOREM_IPSUM.length]); // Repete as palavras se necessário
+        paragrafo.push(
+          LOREM_IPSUM[Math.round(Math.random() * (LOREM_IPSUM.length - 1))]
+        ); // Adiciona as palavras de maneira aleatória
       }
+
       resultado += paragrafo.join(" ") + ".\n\n";
     }
+
     setTextoGerado(resultado);
   };
 
@@ -84,7 +90,7 @@ export default function LoremIpsumGenerator() {
                 whiteSpace: "pre-wrap",
                 border: "1px solid #ccc",
                 padding: "10px",
-                borderRadius: "4px"
+                borderRadius: "4px",
               }}
             >
               {textoGerado || "O texto gerado aparecerá aqui."}
